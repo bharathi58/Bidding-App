@@ -1,0 +1,82 @@
+.listing-container {
+    background-color: rgb(211, 239, 239);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px; /* Add margin between listings */
+  }
+  
+  .listing-image {
+    flex: 0 0 auto;
+    width: 200px; /* Set the width of the image */
+    height: 210px; /* Set the height of the image */
+    margin-left: 50px;
+    margin-right: 20px; /* Add margin between image and details */
+  }
+  .inputs{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 25px;
+}
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border: none;
+    width: 400px;
+    height: 50px;
+    background: #c9c9c9;
+    border-radius: 6px;
+  }
+  .search-bar img{
+    margin: 0px 30px;
+}
+  
+  .listing-details {
+    margin-top: 25px;
+    align-items: center ;
+    margin-left: 50px;
+    margin-bottom: 25px;
+  }
+  
+  .listing-details h3 {
+    margin-top: 50; 
+    align-items: center;
+ }
+  
+  .listing-details p {
+    margin: 5px 0; /* Adjust margin as needed */
+  }
+
+  .bid-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .product-details-container {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .product-details-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Add margin below the image */
+  }
+  
+  .product-details-container h2 {
+    margin-bottom: 10px; /* Add margin below the product name */
+  }
+  
+  .product-details-container p {
+    margin-bottom: 5px; /* Add margin below each product detail */
+  }
